@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Шапка сайта */
+
+header{
+    width: 100%;
+    background-color: rgb(57, 56, 56);
+    float: left;
+    padding: 28px 0;
+    box-sizing: border-box;
+    border-bottom: 4px solid rgb(130, 130, 130);
+}
+
+header .container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(221, 120, 120);
+}
+
+header .container ul li{
+    display: inline;
+    color: white;
+    font-size: 18px;
+}
+
+header .container ul li:not(:last-child){
+    margin-right: 30px;
+}
+
+header .container ul li:hover{
+    color: rgb(220, 147, 147);
+    cursor: pointer;
+}
+
+header .container input{
+    width: 210px;
+    padding: 7px 13px;
+    box-sizing: border-box;
+    background-color: rgb(244, 244, 244);
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    font-family: 'Roboto Slab' sans-serif;
+    outline: none;
+}
+
+
+
+/* Главная часть сайта */
+
+main{
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    padding: 50px 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+main .container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+main .container .main{
+    width: 720px;
+    float: left;
+    border: 2px solid silver;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(244, 244, 244);
+}
+
+main .container .main h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(211, 114, 114);
+}
+
+main .container p{
+    color: rgb(85, 85, 85);
+    margin-bottom: 30px;
+    font-size: 14px;
+    margin: 0;
+}
+
+main .container img{
+    display: block;
+    width: 370px;
+    margin: 30px auto 10px;
+}
+
+main .container .right{
+    float: right;
+    width: 300px;
+    border: 2px solid silver;
+    padding: 10px 15px 15px;
+    box-sizing: border-box;
+    background-color: rgb(244, 244, 244);
+}
+
+main .container .right h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(211, 114, 114);
+}
+
+main .container .right .mark{
+    background-color: yellow;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+/* Подвал сайта */
+
+footer{
+    width: 100%;
+    background-color: rgb(57, 56, 56);
+    float: left;
+    padding: 25px 0 15px;
+    box-sizing: border-box;
+    border-top: 4px solid rgb(130, 130, 130);
+}
+
+footer .container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+footer .container h2{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+footer .container h2 span{
+    font-style: italic;
+}
+
+footer .container ul{
+    margin: 25px 0 10px;
+    text-align: center;
+    color: white;
+}
+
+footer .container ul li{
+    display: inline-block;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+footer .container ul li:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+footer .container ul li:not(:last-child){
+    margin-right: 50px;
+}
+
+footer .container ul #youtube{
+    background-color: rgb(211, 114, 114);
+}
+
+footer .container ul #twitter{
+    background-color: rgb(107, 159, 218);
+}
+
+footer .container ul #facebook{
+    background-color: rgb(113, 89, 233);
+}
+
+footer .container ul #instagram{
+    background-color: rgb(168, 139, 93);
+}
+
+footer:last-child{
+    color: white;
+}
+
